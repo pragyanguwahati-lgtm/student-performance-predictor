@@ -24,7 +24,7 @@ def run_predict(args):
     model = load_model()
     # Build a single-row feature vector
     feat = np.array([[args.hours, args.attendance, args.prev_grade, args.sleep,
-    args.help]])
+    args.extra_help]])
     # Note: in a full pipeline you must scale features the same way as training; for simplicity we'll skip scaling here
     pred, prob = predict(model, feat)
     label = 'Pass' if pred[0] == 1 else 'Fail'
@@ -40,7 +40,9 @@ if __name__ == "__main__":
     p.add_argument('--attendance', type=float, required=True)
     p.add_argument('--prev_grade', type=float, required=True)
     p.add_argument('--sleep', type=float, default=7)
-    p.add_argument('--help', dest='help', type=int, choices=[0,1], default=0)
+    # fixed: use --extra-help (or --extra_help) and dest extra_help
+    p.add_argument('--extra-help', '--extra_help', dest='extra_help', type=int, choices=[0,1], default=0, help="0 = no extra help, 1 = used extra help")
+
     args = parser.parse_args()
     if args.cmd == 'train':
         run_train(args)
