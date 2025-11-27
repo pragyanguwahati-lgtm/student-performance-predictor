@@ -1,6 +1,15 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da
 .venv/
 __pycache__/
 *.pyc
 .DS_Store
 data/*.csv
+<<<<<<< HEAD
 model.joblib
+=======
+model.joblib
+project.log
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da

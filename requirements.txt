@@ -1,6 +1,15 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da
 pandas
 numpy
 scikit-learn
 matplotlib
 joblib
+<<<<<<< HEAD
 pytest
+=======
+pytest
+reportlab
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da

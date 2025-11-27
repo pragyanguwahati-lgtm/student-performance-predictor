@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Problem Statement
 
 
@@ -21,3 +22,9 @@ Many students and instructors want a quick way to estimate the likelihood that a
 - Model training and persistence
 - Evaluation and reporting
 - CLI for inference
+=======
+
+# Problem Statement
+
+Build a simple classifier to predict pass/fail status for students using features like study hours, attendance, and previous grades.
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da

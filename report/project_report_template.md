@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Performance Predictor — Project Report
 
 ## 1. Cover Page
@@ -81,3 +82,9 @@ Reason: Simple, interpretable, works well for small datasets.
 ---
 
 ## 11. Implementation Deta
+=======
+
+# Student Performance Predictor — Project Report
+
+(Use this markdown as the base for your PDF report. Add diagrams and screenshots as needed.)
+>>>>>>> b41e797168bc72c94ac4f53bad80c415e98473da
